@@ -14,6 +14,12 @@
         <li><a class="app-menu__item" href="{{route('backend.worked-for')}}"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Worked For</span></a></li>
         <li><a class="app-menu__item" href="{{route('backend.contacts')}}"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Contacts</span></a></li>
 
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Project Manage</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> All Projects</a></li>
+          </ul>
+        </li>
+
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="bootstrap-components.html"><i class="icon fa fa-circle-o"></i> Bootstrap Elements</a></li>
